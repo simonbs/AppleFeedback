@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>INEnums</key>
+	<array/>
+	<key>INIntentDefinitionModelVersion</key>
+	<string>1.1</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>pZVWPx</string>
+	<key>INIntentDefinitionSystemVersion</key>
+	<string>18F132</string>
+	<key>INIntentDefinitionToolsBuildVersion</key>
+	<string>11M392r</string>
+	<key>INIntentDefinitionToolsVersion</key>
+	<string>11.0</string>
+	<key>INIntents</key>
+	<array>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>generic</string>
+			<key>INIntentConfigurable</key>
+			<true/>
+			<key>INIntentDescriptionID</key>
+			<string>8MjzgI</string>
+			<key>INIntentManagedParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Resolve Bookmark</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>hfVVQ3</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>INIntentName</key>
+			<string>ResolveBookmark</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Resolve Bookmark</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>lTSeTs</string>
+				</dict>
+			</dict>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Bookmark not found. Please create a bookmark in the host app.</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>TiUuqK</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Bookmark not found. Please create a bookmark in the host app.</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>a8gT7q</string>
+						<key>INIntentResponseCodeName</key>
+						<string>notFound</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>The bookmark could not be resolved in the intent extension.</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>TS2JmS</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>The bookmark could not be resolved in the intent extension.</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>VPMpIk</string>
+						<key>INIntentResponseCodeName</key>
+						<string>invalid</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Resolved bookmark with file name "${bookmarkName}".</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>646EAu</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Resolved bookmark with file name "${bookmarkName}".</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>JhLKhI</string>
+						<key>INIntentResponseCodeName</key>
+						<string>resolvedWithName</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Resolved bookmark but couldn't get the file name.</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>al5SJC</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Resolved bookmark but couldn't get the file name.</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>lr9klI</string>
+						<key>INIntentResponseCodeName</key>
+						<string>resolvedWithoutName</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+				</array>
+				<key>INIntentResponseLastParameterTag</key>
+				<integer>1</integer>
+				<key>INIntentResponseParameters</key>
+				<array>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Bookmark Name</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>Y4nGLA</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>bookmarkName</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>Resolve Bookmark</string>
+			<key>INIntentTitleID</key>
+			<string>aOaTht</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>Do</string>
+		</dict>
+	</array>
+	<key>INTypes</key>
+	<array/>
+</dict>
+</plist>

@@ -1,6 +1,4 @@
-# Siri Language
-
-**Value of properties in an intent response is not shown when using Siri in other languages than English**
+## Value of properties in an intent response is not shown when using Siri in other languages than English
 
 When running a third-party Shortcuts action which has a response that contains a custom property, the value of the property is not shown when using Siri in a language other than English, e.g. Danish or German. When running the action in Danish or German, Siri will omit the property.
 

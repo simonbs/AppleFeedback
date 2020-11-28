@@ -20,5 +20,4 @@ Since the intent definition is localized into English, Danish and German, I woul
 
 The attached screenshots shows the difference between running the shrotcut with Siri set to English and Danish.
 
-|-|-|
 |<img width="375" src="https://raw.githubusercontent.com/simonbs/AppleFeedback/master/FB8920651/screenshot1.PNG"/>|<img width="375" src="https://raw.githubusercontent.com/simonbs/AppleFeedback/master/FB8920651/screenshot3.PNG"/>|

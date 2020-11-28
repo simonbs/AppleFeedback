@@ -1,6 +1,6 @@
 # Siri Language
 
-*Value of properties in an intent response is not shown when using Siri in other languages than English*
+**Value of properties in an intent response is not shown when using Siri in other languages than English**
 
 When running a third-party Shortcuts action which has a response that contains a custom property, the value of the property is not shown when using Siri in a language other than English, e.g. Danish or German. When running the action in Danish or German, Siri will omit the property.
 
@@ -21,3 +21,6 @@ The issue can be reproduced in the example app by following these steps:
 Since the intent definition is localized into English, Danish and German, I would expect the value of the property to be shown in all three languages.
 
 The attached screenshots shows the difference between running the shrotcut with Siri set to English and Danish.
+
+|-|-|
+|<img width="375" src="https://raw.githubusercontent.com/simonbs/AppleFeedback/master/FB8920651/screenshot1.PNG"/>|<img width="375" src="https://raw.githubusercontent.com/simonbs/AppleFeedback/master/FB8920651/screenshot3.PNG"/>|

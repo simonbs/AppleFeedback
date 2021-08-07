@@ -18,4 +18,6 @@ As a workaround I have found that evaluating the above JavaScript each time -web
 
 I would not expect this behaviour of -webView.evaluateJavaScript(:) to change from iOS 14 to iOS 15 but it appears that it has.
 
+## Comments
+
 > Here’s a small clarification. When I say that the functions and variables added with webView.evaluateJavaScript(:) is “no longer available” after the page load, I mean that the functions and variables are no longer available to subsequent calls to webView.evaluateJavaScript(:) on iOS. However, they are available to subsequent calls on iOS 14.

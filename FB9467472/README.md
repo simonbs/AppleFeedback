@@ -5,11 +5,11 @@ Evaluating JavaScript that defines functions and variables using webView.evaluat
 For example evaluating the following JavaScript meant that the completion(value) function was available, even after a new page had been loaded in the network.
 
 ```
-let js = `
+let js = """
 const completion = function(value) {
 	window.webkit.messageHandlers.myCompletionHandler.postMessage(value)
 }
-`
+"""
 ```
 
 On iOS 15 the completion(value) function is no longer available once a page has been loaded.

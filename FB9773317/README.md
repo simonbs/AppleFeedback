@@ -4,8 +4,10 @@ Attempting to import a CSV file with passwords that contain a quotation mark wil
 
 Consider the following sample CSV file (also attached to the issue).
 
+```csv
 Title,Url,Username,Password
 "Apple","https://apple.com","hello@example.com","super\"secret"
+```
 
 The file contains a single username and password for apple.com.
 

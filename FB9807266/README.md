@@ -10,3 +10,5 @@ The problem can be reproduced in the attached example project by following these
 2. Hold down the command key (⌘) until the list of supported shortcuts is shown.
 3. Observe that the "Increase Font Size" command that is bound to ⌘ + isn't shown in the list but the "Decrease Font Size" command that is bound to ⌘ - is shown.
 4. Also observe that the ⌘ + shortcut does in fact trigger the "Increase Font Size" command even though it isn't shown in the list of supported shortcuts.
+
+![](https://github.com/simonbs/AppleFeedback/blob/master/FB9807266/screenshot.png)

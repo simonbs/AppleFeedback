@@ -1,16 +1,12 @@
-# extensionContext.hostedViewMaximumAllowedSize is significantly greater than actual maximum view size on iPad
+# UIKeyCommand with shortcut CMD+ isn't shown in list of supported shortcuts
 
-The extensionContext.hostedViewMaximumAllowedSize property of a INUIHostedViewControlling is not correct on iPad. Tested on iPad Pro 12.9" 2018.
-In landscape the value is 1350 x 1024 but the view can be a maximum of 656 x 1024. In portrait the value is 1008 x 1366 but the view cen ba maximum of 656 x 1366. On iPhone the issue does not seem to be present. Tested on iPhone X.
+UIKeyCommands with the keyboard shortcut CMD+ (Command key and the plus character) isn’t shown in list of supported shortcuts when holding down the CMD key, however, the action is triggered when performing the shortcut.
 
-This is an issue when relying on the maximum size of the view to determine the desired size, e.g. when showing an image and wanting to respect aspect ratio while still filling the maximum width the intents UI.
+The attached example project shows the issue. I’ve tried various values for allowsAutomaticMirroring, allowsAutomaticLocalization and wantsPriorityOverSystemBehavior but with the same result: the shortcut isn’t shown in the list of supported shortcuts.
 
-See the attached sample project which shows the issue. Register a shortcut and then trigger it. The attached videos are of the example app and also shows the issue.
+The problem can be reproduced in the attached example project by following these steps:
 
-Steps to Reproduce:
-
-1. Create a Siri Shortcut with a custom intent.
-2. Create an Intents extension that handles your custom intent.
-3. Create an IntentsUI extension that handles your custom intent.
-4. In configureView(for:of:) provide the value of extensionContext.hostedViewMaximumAllowedSize as the desired size when calling your completion handler.
-5. Examine the value of extensionContext.hostedViewMaximumAllowedSize and notice that it is significantly greater than the actual size of your view. I've used viewDidLayoutSubviews to examine the actual size of the view.
+1. Run the app on an iPad with a hardware keyboard attached.
+2. Hold down the command key (⌘) until the list of supported shortcuts is shown.
+3. Observe that the "Increase Font Size" command that is bound to ⌘ + isn't shown in the list but the "Decrease Font Size" command that is bound to ⌘ - is shown.
+4. Also observe that the ⌘ + shortcut does in fact trigger the "Increase Font Size" command even though it isn't shown in the list of supported shortcuts.

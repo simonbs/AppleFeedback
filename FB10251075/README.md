@@ -6,6 +6,7 @@ This poses a problem in my app Runestone, a plain text editor for iPhone and iPa
 
 I have tested a setup where I have the following document types registered in my app.
 
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -48,5 +49,6 @@ I have tested a setup where I have the following document types registered in my
   </dict>
 </array>
 </plist>
+
 
 I have also tested a setup where I have the com.netscape.javascript-source UTI registered as well but that did not make any difference.

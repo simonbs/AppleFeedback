@@ -49,6 +49,6 @@ I have tested a setup where I have the following document types registered in my
   </dict>
 </array>
 </plist>
-
+```
 
 I have also tested a setup where I have the com.netscape.javascript-source UTI registered as well but that did not make any difference.

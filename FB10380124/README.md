@@ -22,3 +22,5 @@ struct ExampleAppIntent: AppIntent {
     }
 }
 ```
+    
+![](./screenshot.png)

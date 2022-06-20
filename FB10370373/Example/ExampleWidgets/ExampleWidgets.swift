@@ -48,7 +48,6 @@ struct ExampleWidgetsEntryView : View {
             .resizable()
             .frame(width: 30, height: 30)
             .fixedSize()
-            .aspectRatio(contentMode: <#T##ContentMode#>)
     }
 }
 

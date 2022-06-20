@@ -9,3 +9,5 @@ The image is stretched even when applying view modifiers like .resizable(), .fix
 This issue totally prevents the usage of custom images in the inline accessory widget which poses quite a problem for companies attempting to display custom iconography in the inline accessory widget, essentially preventing us from supporting the inline accessory widget.
 
 Please see the attached image which shows the issue on the Lock Screen and please see the attached example project which can be used to reproduce the issue.
+
+<img width="375" src="image.jpeg" />

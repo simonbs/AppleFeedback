@@ -29,3 +29,5 @@ However, passing the exact same values for the two view modifiers in the same ch
 **Comment**
 
 I have attached a minimal example project to reproduce the issue. The attached image is a screenshot of the sample project.
+
+<img src="https://github.com/simonbs/AppleFeedback/blob/main/FB12385126/screenshot.PNG?raw=true" width="393"/>

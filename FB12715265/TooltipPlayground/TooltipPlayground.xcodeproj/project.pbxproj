@@ -13,6 +13,7 @@
 		720D69CA2A6C60C5005A2CE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D69C92A6C60C5005A2CE6 /* MainViewController.swift */; };
 		720D69CC2A6C60C5005A2CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720D69CB2A6C60C5005A2CE6 /* Assets.xcassets */; };
 		720D69D92A6C6279005A2CE6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D69D82A6C6279005A2CE6 /* SwiftUIView.swift */; };
+		72B6C28E2A6D2203000F6696 /* CustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B6C28D2A6D2203000F6696 /* CustomControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		720D69CB2A6C60C5005A2CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720D69D12A6C60C5005A2CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720D69D82A6C6279005A2CE6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		72B6C28D2A6D2203000F6696 /* CustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				720D69D82A6C6279005A2CE6 /* SwiftUIView.swift */,
 				720D69C72A6C60C5005A2CE6 /* UIKitView.swift */,
 				720D69C92A6C60C5005A2CE6 /* MainViewController.swift */,
+				72B6C28D2A6D2203000F6696 /* CustomControl.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				720D69C82A6C60C5005A2CE6 /* UIKitView.swift in Sources */,
 				720D69C52A6C60C5005A2CE6 /* SceneDelegate.swift in Sources */,
 				720D69CA2A6C60C5005A2CE6 /* MainViewController.swift in Sources */,
+				72B6C28E2A6D2203000F6696 /* CustomControl.swift in Sources */,
 				720D69D92A6C6279005A2CE6 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

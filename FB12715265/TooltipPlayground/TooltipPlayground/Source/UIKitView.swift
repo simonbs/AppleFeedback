@@ -16,6 +16,13 @@ final class MainView: UIView {
         this.addInteraction(tooltipInteraction)
         return this
     }()
+    private let toolTipControl: UIControl = {
+        let this = CustomControl()
+        this.translatesAutoresizingMaskIntoConstraints = false
+        this.titleLabel.text = "I'm a UIControl with a tooltip and I will show it 👍"
+        this.toolTip = "This is my tooltip!"
+        return this
+    }()
     let stackView: UIStackView = {
         let this = UIStackView()
         this.translatesAutoresizingMaskIntoConstraints = false
@@ -38,6 +45,7 @@ final class MainView: UIView {
         stackView.spacing = 44
         stackView.addArrangedSubview(toolTipButton)
         stackView.addArrangedSubview(toolTipInteractionLabel)
+        stackView.addArrangedSubview(toolTipControl)
         addSubview(stackView)
     }
 

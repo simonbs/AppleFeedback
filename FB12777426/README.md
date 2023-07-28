@@ -5,3 +5,5 @@ Ornaments on a UIViewController don’t affect the safe area insets or layout ma
 The attached example project shows a UITextView with an overlapping toolbar. The text in the text view cannot become fully readable as the ornament obstructs the text.
 
 The attached screenshot shows the example project.
+
+![](https://github.com/simonbs/AppleFeedback/blob/main/FB12777426/screenshot.png)

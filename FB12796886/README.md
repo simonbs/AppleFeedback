@@ -1,13 +1,7 @@
-# Actions that return a boolean value will crash the Shortcuts app
+# UIVisualEffectView creates a "hole punch" effect when the root view uses the system background color
 
-Actions that return a boolean will crash the Shortcuts app when the shortcut is running whole the editor is open. Please see the attached example project.
+When a UIVisualEffectView with a UIBlurEffect is a child of a view with a system background color, it creates a “hole punch effect” on visionOS where the user can see through the entire view hierarchy, including any views between the root view and the UIVisualEffectView.
 
-After installing the app built by the attached sample project, the issue can be replicated by following the steps below.
+The issue can be reproduced with the attached sample project. Notice that when the root view has its background color set to .systemBackground and both the photo and the UIVisualEffectView is shown, it creates a “hole punch” effect where the user can see through the entire window.
 
-1. Open the Shortcuts app
-2. Create a new and shortcut with no actions
-3. Add the "Get Boolean Value" action offered by this app.
-4. Run the shortcut with the editor open.
-5. Notice that the Shortcuts app crashed 💥
-
-You may also test it with the shortcut at this link: https://www.icloud.com/shortcuts/951b56545ca4494d99b0f966832df6bc
+The attached video illustrates the issue using the sample project.

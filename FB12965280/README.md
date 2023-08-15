@@ -5,3 +5,5 @@ The inputAccessoryView property on UITextView and UITextField is used to attach 
 This is not what the user expects and these controls should be located near the keyboard.
 
 The issue is shown in the attached recording of the Vision Pro simulator and can be reproduced using the attached sample project.
+
+<img width="720" src="https://github.com/simonbs/AppleFeedback/blob/main/FB12965280/screenshot.png?raw=true"/>

@@ -2,7 +2,7 @@
 
 Memory usage grows linearly over time when a SwiftUI view observes a model using the Observation framework and the view updates periodically.
 
-In my ~35 LOC example app, memory usage increases when the SwiftUI view references the isEnabled property of an ObservableSettings object. However, the memory usage remains stable when using a NonObservableSettings object (a plain Swift object that is not Observable).
+In my ~35 LOC example app, memory usage increases when the SwiftUI view references the `isEnabled` property of an ObservableSettings object. However, the memory usage remains stable when using a NonObservableSettings object (a plain Swift object that is not Observable).
 
 See the attached example project and Instruments recording for details.
 
